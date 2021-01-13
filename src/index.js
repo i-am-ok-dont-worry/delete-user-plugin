@@ -19,7 +19,7 @@ module.exports = ({ config, db, router, cache, apiStatus, apiError, getRestApiCl
                 return restClient.post(`/kmk-customer/delete-account/notify/${customerId}`, token);
             };
             module.confirm = (customerId, token) => {
-              return restClient.post('/kmk-customer/delete-account/confirm', { customer_id: customerId, token }, token);
+              return restClient.post('/kmk-customer/delete-account/confirm', { confirmation: { customer_id: customerId, token } }, token);
             };
 
             return module;
