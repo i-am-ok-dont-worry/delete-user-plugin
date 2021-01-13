@@ -1,7 +1,7 @@
 {
   "name": "customer-delete-plugin",
   "pluginname": "customer-delete-plugin",
-  "companyname": "",
+  "companyname": "@grupakmk",
   "version": "1.0.0",
   "description": "Plugin for customer delte",
   "main": "src/index.js",
